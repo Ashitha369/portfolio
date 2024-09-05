@@ -1,0 +1,111 @@
+/* ----------------------- Header ----------------------- */
+
+.logo{
+    padding-top: 30px;
+    padding-left: 90px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+}
+nav{
+    flex: 1;
+    text-align: right;
+    /* padding: 10px; */
+    padding-right: 60px;
+    cursor: pointer;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-size: larger;
+
+}
+li:hover{
+    color: red;
+}
+
+/* ----------------------- body ----------------------- */
+
+body{
+    background-color: rgba(189, 228, 243, 0.295);
+}
+
+/* ----------------------- main ----------------------- */
+
+
+h1{
+    font-size: 40px;
+    color: #000;
+    padding-top: 140px;
+    padding-left: 100px;
+}
+.txt1{
+    color: #FFA500;
+}
+p{
+    color: gray;
+    padding-left: 100px;
+}
+.btn{
+    /* border: 1px solid; */
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 110px;
+    top: 420px;
+}
+.media{
+    position: absolute;
+    left: 110px;
+    top: 85%;
+    font-size: 25px;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+.bi-dribbble:hover{
+    color: #FFA500;
+}
+.bi-instagram:hover{
+    color: #FFA500;
+}
+.bi-behance:hover{
+    color: #FFA500;
+}
+.shape{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    bottom: 25px;
+    left: 800px;
+    transition: 1s;
+}
+.grl{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 830px;
+    transition: 1s;
+}
+
+
+.img:hover .grl{
+    transform: translateX(-50px);
+}
+
+.img:hover .shape{
+    transform: translateY(-50px);
+}
+
